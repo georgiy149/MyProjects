@@ -1,3 +1,32 @@
+/*
+Hangman: how to run
+
+Requirements: Node.js (LTS) and WebStorm.
+
+Open
+
+In WebStorm: Get from VCS and paste the GitHub URL.
+Click Clone, then Trust Project.
+
+Run
+
+Open the WebStorm terminal and run npm install (once).
+Run node hangman/hangman.js.
+
+Play
+
+Both players enter their names.
+Player 1 types a secret word. The screen clears.
+Player 2 guesses one letter at a time, with 7 attempts.
+Players swap roles each round.
+
+Problems?
+
+node is not recognized: install Node.js, restart WebStorm.
+Cannot use import statement outside a module: add "type": "module" to package.json.
+Cannot find module: run npm install.
+
+*/
 import io from "../utils/io-for-pf.js";
 import {createArray} from "../utils/array-utils.js";
 
