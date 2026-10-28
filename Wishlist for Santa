@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Georgiy Komarov">
+    <title>Wishlist for Santa</title>
+    <link rel="stylesheet" href="ResetSanta.css">
+    <link rel="stylesheet" href="ScreenSanta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+
+    <img src="xmas-tree.gif" alt="Christmas tree">
+
+    <h1>Make-a-wishlist for Santa!</h1>
+</header>
+
+<form action="#" method="post">
+
+
+
+    <fieldset class="info">
+        <legend>Some information about you</legend>
+
+        <label for="name">Who are you?</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Where shall we mail your pending approval to?</label>
+        <input type="email" id="email" name="email" placeholder="someone@somewhere.com" required>
+
+
+        <label for="phone">Can E.T. phone home?</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="planet">Where are you from?</label>
+        <select id="planet" name="planet">
+            <option value="earth">Earth</option>
+            <option value="venus">Venus</option>
+            <option value="mars">Mars</option>
+        </select>
+    </fieldset>
+
+
+
+    <fieldset class="please">
+        <legend>Something to please Santa</legend>
+
+        <p class="question">Which do you like better: the elves or the reindeer?</p>
+
+        <div class="options">
+            <label><input type="radio" name="favourite" value="elves"> Elves</label>
+            <label><input type="radio" name="favourite" value="reindeer"> Reindeer</label>
+        </div>
+
+        <p class="question">What do you usually decorate your x-mas tree with?</p>
+
+        <div class="options">
+            <label><input type="checkbox" name="decoration" value="balls"> Balls</label>
+            <label><input type="checkbox" name="decoration" value="lights"> Lights</label>
+            <label><input type="checkbox" name="decoration" value="snow"> Snow</label>
+            <label><input type="checkbox" name="decoration" value="little-men"> Little men</label>
+            <label><input type="checkbox" name="decoration" value="fireworks"> Fireworks!</label>
+        </div>
+
+        <label for="movie">What is your favourite x-mas movie</label>
+
+        <input type="text" id="movie" name="movie" list="movies">
+
+
+        <datalist id="movies">
+            <option value="Nightmare before Christmas"></option>
+            <option value="Labyrinth"></option>
+            <option value="Edward Scissorhands"></option>
+            <option value="The expendables! What else?"></option>
+            <option value="I absolutely hate christmas movies"></option>
+        </datalist>
+
+
+        <label for="trees">How many x-mas trees do you own?</label>
+        <input type="number" id="trees" name="trees" min="0" value="0">
+    </fieldset>
+
+
+
+    <fieldset class="request">
+        <legend>At last... your request</legend>
+
+        <label for="wish">So, what will it be?</label>
+        <textarea id="wish" name="wish" rows="4"></textarea>
+    </fieldset>
+
+    <button type="submit">send to santa!</button>
+
+</form>
+
+
+
+
+
+</body>
+</html>
