@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 760px;
+    padding: 20px;
+    font-family: "Roboto", Arial,  sans-serif;
+    font-size: 14px;
+    background-color: #fdfcf3;
+    background-image: url("bg-stars.gif");
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+header img {
+    height: 100px;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 48px;
+    font-weight: normal;
+    color: #c00000;
+}
+
+form {
+    max-width: 470px;
+    margin: 0 auto;
+}
+
+fieldset {
+    position: relative;
+    border: none;
+    border-radius: 15px;
+    margin: 50px 0 0;
+    padding: 25px 15px 25px;
+    color: #fff;
+}
+
+
+
+legend {
+    position: absolute;
+    top: -28px;
+    left: 15px;
+    padding: 8px 14px 4px;
+    border-radius: 15px 15px 0 0;
+    font-family: "Pacifico", cursive;
+    font-size: 26px;
+    line-height: 1.2;
+    white-space: nowrap;
+    float: none;
+}
+
+label,
+.question {
+    display: block;
+    margin: 12px 0 5px;
+    color: #fff;
+}
+
+fieldset.info label,
+fieldset.info {
+    color: #000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    background: #fff;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 70px;
+}
+
+
+.hint {
+    display: block;
+    margin-top: 3px;
+    font-size: 11px;
+    color: #b00000;
+}
+
+
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 15px;
+}
+
+.options label {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+}
+
+
+
+
+
+fieldset.info {
+    background: #d3d68c;
+}
+fieldset.info legend {
+    background: #d3d68c;
+    color: #000;
+}
+
+
+
+fieldset.please {
+    background: #542f2c;
+}
+fieldset.please legend {
+    background: #542f2c;
+    color: #f39809;
+}
+
+
+
+
+fieldset.request {
+    background: #bd0008;
+}
+fieldset.request legend {
+    background: #bd0008;
+    color: #fff;
+}
+
+button {
+    display: block;
+    margin: 25px 0 20px auto;
+    padding: 6px 8px;
+    border: none;
+    background: #878c18;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #84881a;
+}
