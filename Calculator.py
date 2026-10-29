@@ -1,11 +1,11 @@
-### Simple Calculator
+# Simple Calculator
 
-## How to run:
+# How to run:
 
- ## 1) Install Python 3.
- ## 2) Open a terminal in this folder.
- ## 3) Run: `python rekenmachine.py`
- ## 4) Enter two numbers and an operator. Type `stop` to quit.
+ # 1) Install Python 3.
+ # 2) Open a terminal in this folder.
+ # 3) Run: `python rekenmachine.py`
+ # 4) Enter two numbers and an operator. Type `stop` to quit.
 
 
 def bereken(getal1, getal2, bewerking):
